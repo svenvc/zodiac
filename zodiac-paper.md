@@ -55,7 +55,7 @@ some VMs include the plugin by default.
 A TLS/SSL communication starts with a handshake with the client taking the initiative, 
 called a login, and the server responding, called an accept.
 During the handshake parameters are exchanged and agreed upon for further use. 
-Next, asymmetric public/privagte key cryptography is used to set up a session key. 
+Next, asymmetric public/private key cryptography is used to set up a session key. 
 The session key will then be used with symmetric encryption for privacy.
 Additionally, message authentication codes are used for message integrity.
 
