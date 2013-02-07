@@ -1,6 +1,7 @@
 tests
 testPlain
 	| query stream request response |
+	self isNativeSSLPluginPresent ifFalse: [ ^ self ].
 	query := 'Smalltalk'.
 	stream := ZdcSecureSocketStream openConnectionToHostNamed: 'encrypted.google.com' port: 443.
 	[
@@ -14,6 +15,6 @@ testPlain
 		stream flush.
 		response := stream upToEnd asString.
 	] ensure: [ stream close ].
-	self assert: (response includesSubString: '200 OK').      
-	self assert: (response includesSubString: 'Google').
-	self assert: (response includesSubString: 'Smalltalk').      
+	self assert: (response includesSubstring: '200 OK').      
+	self assert: (response includesSubstring: 'Google').
+	self assert: (response includesSubstring: 'Smalltalk').      
