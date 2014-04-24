@@ -2,7 +2,7 @@ initialize-release
 close
 	"Close the stream, flush if necessary"
 
-	self flush.
-	socket isNil ifTrue: [ ^ self ].
-	self socketClose.  
-	socket := nil
+	[ self flush ] ensure: [ 
+		socket ifNotNil: [ 
+			self socketClose.
+			socket := nil ] ]

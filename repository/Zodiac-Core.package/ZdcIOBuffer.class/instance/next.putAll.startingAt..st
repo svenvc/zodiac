@@ -5,5 +5,9 @@ next: count putAll: collection startingAt: offset
 	| writeOffset |
 	count > self availableForWriting ifTrue: [ self bufferFullError ].  
 	writeOffset := self freeSpaceStart.
-	buffer replaceFrom: writeOffset to: writeOffset + count - 1 with: collection startingAt: offset.
+	buffer 
+		replaceFrom: writeOffset 
+		to: writeOffset + count - 1 
+		with: collection 
+		startingAt: offset.
 	self advanceWritePointer: count
