@@ -5,4 +5,6 @@ close
 	[ self flush ] ensure: [ 
 		socket ifNotNil: [ 
 			self socketClose.
-			socket := nil ] ]
+			socket := nil ].
+		readBuffer close.
+		writeBuffer close ]

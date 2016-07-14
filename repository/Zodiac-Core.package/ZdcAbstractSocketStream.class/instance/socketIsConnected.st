@@ -1,3 +1,3 @@
 private socket
 socketIsConnected
-	^ socket isConnected
+	^ socket isConnected and: [ socket isOtherEndClosed not ]

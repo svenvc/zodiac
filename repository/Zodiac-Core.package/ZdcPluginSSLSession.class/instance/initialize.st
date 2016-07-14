@@ -6,4 +6,5 @@ initialize
 		on: PrimitiveFailed 
 		do: [ :exception |
 			"Give a more human friendly error message"
-			ZdcPluginMissing signal ]
+			ZdcPluginMissing signal ].
+	self logging: false

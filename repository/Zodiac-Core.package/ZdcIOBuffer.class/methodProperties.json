@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"on:" : "SvenVanCaekenberghe 5/17/2011 18:46",
-		"onByteArrayOfSize:" : "SvenVanCaekenberghe 5/17/2011 18:46" },
+		"onByteArrayOfSize:" : "SvenVanCaekenberghe 5/6/2015 21:37" },
 	"instance" : {
 		"advanceReadPointer:" : "SvenVanCaekenberghe 5/17/2011 18:46",
 		"advanceWritePointer:" : "SvenVanCaekenberghe 5/17/2011 18:46",
@@ -10,8 +10,9 @@
 		"buffer" : "SvenVanCaekenberghe 5/17/2011 18:46",
 		"bufferEmptyError" : "SvenVanCaekenberghe 5/17/2011 18:46",
 		"bufferFullError" : "SvenVanCaekenberghe 5/17/2011 18:46",
-		"bufferSize" : "SvenVanCaekenberghe 5/17/2011 18:46",
+		"bufferSize" : "SvenVanCaekenberghe 5/3/2015 23:39",
 		"capacity" : "SvenVanCaekenberghe 5/17/2011 18:46",
+		"close" : "SvenVanCaekenberghe 5/6/2015 21:37",
 		"compact" : "SvenVanCaekenberghe 5/17/2011 18:46",
 		"contents" : "SvenVanCaekenberghe 5/17/2011 18:46",
 		"contentsEnd" : "SvenVanCaekenberghe 5/17/2011 18:46",
@@ -26,7 +27,7 @@
 		"nextPut:" : "SvenVanCaekenberghe 5/17/2011 18:46",
 		"on:" : "SvenVanCaekenberghe 5/17/2011 18:46",
 		"peek" : "SvenVanCaekenberghe 5/19/2011 12:50",
-		"printOn:" : "SvenVanCaekenberghe 5/17/2011 18:46",
+		"printOn:" : "SvenVanCaekenberghe 5/3/2015 23:33",
 		"readInto:startingAt:count:" : "SvenVanCaekenberghe 5/28/2013 15:48",
 		"reset" : "SvenVanCaekenberghe 5/17/2011 18:46",
 		"size" : "SvenVanCaekenberghe 5/17/2011 18:46" } }

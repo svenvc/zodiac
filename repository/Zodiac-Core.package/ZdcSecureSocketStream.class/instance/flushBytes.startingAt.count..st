@@ -4,7 +4,7 @@ flushBytes: bytes startingAt: offset count: count
 	Overwritten: first encrypt the data, then send it to the socket using a super call."
 	
 	| remaining currentOffset |
-	socket ifNil: [ ConnectionClosed signal: 'Cannot write data' ].  
+	self isConnected ifFalse: [ ConnectionClosed signal: 'Cannot write data' ].  
 	remaining := count.
 	currentOffset := offset.
 	[ remaining > 0 ] whileTrue: [ | chunkCount writeCount |
