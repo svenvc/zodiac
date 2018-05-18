@@ -12,5 +12,5 @@ testPlainClientSkip
 	dataRead := clientStream skip: 1; upToEnd.
 	clientStream close.
 	semaphore wait.
-	self assert: dataSent = dataRead.
+	self assert: dataSent equals: dataRead.
 	semaphore wait

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ZdcLogEvent",
+	"category" : "Zodiac-Debug",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"source",
+		"start",
+		"stop",
+		"destination"
+	],
+	"name" : "ZdcSSLSessionOperationStart",
+	"type" : "normal"
+}

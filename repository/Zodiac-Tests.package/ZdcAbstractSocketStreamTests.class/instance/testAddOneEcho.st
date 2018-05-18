@@ -12,5 +12,5 @@ testAddOneEcho
 	clientStream nextPut: dataSent; flush.
 	dataRead := clientStream next.
 	clientStream close.
-	self assert: dataRead = (dataSent + 1).
+	self assert: dataRead equals: dataSent + 1.
 	semaphore wait

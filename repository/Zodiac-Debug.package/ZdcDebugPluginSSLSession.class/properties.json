@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ZdcPluginSSLSession",
+	"category" : "Zodiac-Debug",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZdcDebugPluginSSLSession",
+	"type" : "normal"
+}

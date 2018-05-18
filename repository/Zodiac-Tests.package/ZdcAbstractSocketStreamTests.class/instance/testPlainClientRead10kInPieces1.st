@@ -13,5 +13,5 @@ testPlainClientRead10kInPieces1
 		10 timesRepeat: [ stream nextPutAll: (clientStream next: 1000) ] ].
 	clientStream close.
 	semaphore wait.
-	self assert: dataSent = dataRead.
+	self assert: dataSent equals: dataRead.
 	semaphore wait

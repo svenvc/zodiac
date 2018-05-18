@@ -7,7 +7,7 @@ testAdvanceWritePointer
 	1 to: 6 do: [ :each |
 		ioBuffer buffer at: offset + each - 1 put: each ].
 	ioBuffer advanceWritePointer: 6.
-	self assert: ioBuffer isEmpty not.
-	self assert: ioBuffer availableForReading = 6.
-	self assert: ioBuffer contents = #[1 2 3 4 5 6]
+	self deny: ioBuffer isEmpty.
+	self assert: ioBuffer availableForReading equals: 6.
+	self assert: ioBuffer contents equals: #[1 2 3 4 5 6]
 	

@@ -1,4 +1,4 @@
-initialize
+initialization
 destroy
 	"Destroys the platform handle in the VM plugin"
 

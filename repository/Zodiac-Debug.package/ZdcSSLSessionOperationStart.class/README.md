@@ -1,0 +1,1 @@
+I am ZdcSSLSessionOperationStart, recording the situation before an SSL session opertion.

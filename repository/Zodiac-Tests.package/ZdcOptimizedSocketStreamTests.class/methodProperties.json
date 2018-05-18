@@ -1,5 +1,8 @@
 {
-	"class" : {
-		"isAbstract" : "SvenVanCaekenberghe 5/17/2011 18:58" },
 	"instance" : {
-		"socketStreamClass" : "SvenVanCaekenberghe 5/17/2011 18:59" } }
+		"socketStreamClass" : ""
+	},
+	"class" : {
+		"isAbstract" : ""
+	}
+}

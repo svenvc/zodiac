@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "SvenVanCaekenberghe 11/10/2011 21:03",
+	"super" : "Object",
+	"category" : "Zodiac-Experimental",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Default"
+	],
+	"instvars" : [
+		"socketClass"
+	],
+	"name" : "ZdcSocketFactory",
+	"type" : "normal"
+}

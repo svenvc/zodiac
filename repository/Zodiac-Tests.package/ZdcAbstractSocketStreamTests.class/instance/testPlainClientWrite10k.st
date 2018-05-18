@@ -12,5 +12,5 @@ testPlainClientWrite10k
 	clientStream nextPutAll: dataSent.
 	clientStream close.
 	semaphore wait.
-	self assert: dataSent = dataRead.
+	self assert: dataSent equals: dataRead.
 	semaphore wait

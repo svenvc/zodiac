@@ -3,7 +3,7 @@ runServer: block
 	| serverSocket semaphore |
 	serverSocket := self serverSocketOn: self port.
 	self assert: serverSocket notNil.
-	self assert: serverSocket localPort = self port.
+	self assert: serverSocket localPort equals: self port.
 	semaphore := Semaphore new.
 	[ 
 	semaphore signal.

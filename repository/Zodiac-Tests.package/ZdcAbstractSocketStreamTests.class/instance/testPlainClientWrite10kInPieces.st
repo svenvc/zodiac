@@ -13,5 +13,5 @@ testPlainClientWrite10kInPieces
 		clientStream next: 1000 putAll: dataSent startingAt: (1000 * index) + 1 ].
 	clientStream close.
 	semaphore wait.
-	self assert: dataSent = dataRead.
+	self assert: dataSent equals: dataRead.
 	semaphore wait

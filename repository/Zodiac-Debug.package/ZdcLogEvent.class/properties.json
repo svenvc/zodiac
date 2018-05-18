@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Zodiac-Debug",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"timestamp",
+		"pid",
+		"message"
+	],
+	"name" : "ZdcLogEvent",
+	"type" : "normal"
+}

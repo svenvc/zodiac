@@ -1,0 +1,3 @@
+testing
+isDataAvailable
+	^ nativeSocket dataAvailable 

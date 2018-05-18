@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"isNativeSSLPluginPresent" : "SvenVanCaekenberghe 7/4/2012 11:20",
-		"testIsNativeSSLPluginPresent" : "SvenVanCaekenberghe 7/4/2012 11:23",
-		"testPlain" : "SvenVanCaekenberghe 8/23/2012 14:34" } }
+		"testIsNativeSSLPluginPresent" : "",
+		"testPlain" : "SvenVanCaekenberghe 5/4/2018 09:16",
+		"isNativeSSLPluginPresent" : ""
+	},
+	"class" : { }
+}

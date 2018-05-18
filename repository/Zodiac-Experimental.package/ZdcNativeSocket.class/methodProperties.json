@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"connectTo:port:waitForConnectionFor:" : "SvenVanCaekenberghe 11/10/2011 21:24",
+		"isConnected" : "SvenVanCaekenberghe 11/10/2011 21:18",
+		"initialize" : "SvenVanCaekenberghe 11/10/2011 21:25",
+		"close" : "SvenVanCaekenberghe 11/10/2011 21:17",
+		"waitForSendDoneFor:" : "SvenVanCaekenberghe 11/10/2011 21:19",
+		"sendData:startingAt:count:" : "SvenVanCaekenberghe 11/10/2011 21:20",
+		"isDataAvailable" : "SvenVanCaekenberghe 11/10/2011 21:18",
+		"waitForDataFor:" : "SvenVanCaekenberghe 11/10/2011 21:18",
+		"receiveDataInto:startingAt:count:" : "SvenVanCaekenberghe 11/10/2011 21:20"
+	},
+	"class" : {
+		"newTCP" : "SvenVanCaekenberghe 11/10/2011 21:21"
+	}
+}

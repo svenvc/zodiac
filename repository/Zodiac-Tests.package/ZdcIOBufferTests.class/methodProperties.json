@@ -1,17 +1,18 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testAdvanceReadPointer" : "SvenVanCaekenberghe 5/17/2011 19:28",
-		"testAdvanceWritePointer" : "SvenVanCaekenberghe 5/17/2011 19:28",
-		"testBivalentReading" : "SvenVanCaekenberghe 5/28/2013 19:30",
-		"testBivalentWriting" : "SvenVanCaekenberghe 5/28/2013 15:08",
-		"testCompact" : "SvenVanCaekenberghe 5/17/2011 19:28",
-		"testCompactAtBeginning" : "SvenVanCaekenberghe 5/17/2011 19:28",
-		"testCompactAtEnd" : "SvenVanCaekenberghe 5/17/2011 19:28",
-		"testCompactDoNothing" : "SvenVanCaekenberghe 5/17/2011 19:28",
-		"testNextPutAllStartingAt" : "SvenVanCaekenberghe 5/28/2013 19:16",
-		"testReadIntoStartingAtCount" : "SvenVanCaekenberghe 5/28/2013 19:24",
-		"testReading" : "SvenVanCaekenberghe 5/17/2011 19:29",
-		"testString" : "SvenVanCaekenberghe 5/17/2011 19:28",
-		"testWriting" : "SvenVanCaekenberghe 5/17/2011 19:28" } }
+		"testWriting" : "TorstenBergmann 4/4/2018 07:58",
+		"testCompactDoNothing" : "TorstenBergmann 4/4/2018 08:01",
+		"testBivalentReading" : "",
+		"testReading" : "TorstenBergmann 4/4/2018 07:57",
+		"testCompactAtEnd" : "TorstenBergmann 4/4/2018 07:54",
+		"testReadIntoStartingAtCount" : "",
+		"testCompactAtBeginning" : "TorstenBergmann 4/4/2018 07:54",
+		"testNextPutAllStartingAt" : "",
+		"testAdvanceReadPointer" : "TorstenBergmann 4/4/2018 07:52",
+		"testAdvanceWritePointer" : "TorstenBergmann 4/4/2018 07:53",
+		"testString" : "TorstenBergmann 4/4/2018 07:58",
+		"testCompact" : "TorstenBergmann 4/4/2018 07:54",
+		"testBivalentWriting" : ""
+	},
+	"class" : { }
+}

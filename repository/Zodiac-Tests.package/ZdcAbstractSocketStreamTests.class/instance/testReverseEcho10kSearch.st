@@ -12,5 +12,5 @@ testReverseEcho10kSearch
 	clientStream nextPutAll: dataSent; nextPut: 0; flush.
 	dataRead := clientStream upTo: 0.
 	clientStream close.
-	self assert: dataRead = dataSent reverse.
+	self assert: dataRead equals: dataSent reverse.
 	semaphore wait

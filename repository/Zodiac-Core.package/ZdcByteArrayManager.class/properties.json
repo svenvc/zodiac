@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Zodiac-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Current"
+	],
+	"instvars" : [
+		"limit",
+		"resources",
+		"access"
+	],
+	"name" : "ZdcByteArrayManager",
+	"type" : "normal"
+}

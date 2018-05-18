@@ -14,5 +14,5 @@ testPlainClientRead10kInPieces2
 		clientStream next: 1000 into: dataRead startingAt: (index * 1000) + 1 ].
 	clientStream close.
 	semaphore wait.
-	self assert: dataSent = dataRead.
+	self assert: dataSent equals: dataRead.
 	semaphore wait

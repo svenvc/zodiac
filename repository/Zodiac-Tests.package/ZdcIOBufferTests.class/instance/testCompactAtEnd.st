@@ -6,7 +6,7 @@ testCompactAtEnd
 	self assert: ioBuffer gapAtFront isZero.
 	10 timesRepeat: [ ioBuffer next ].
 	self assert: ioBuffer isFull.
-	self assert: ioBuffer gapAtFront = 10.
+	self assert: ioBuffer gapAtFront equals: 10.
 	ioBuffer compact.
 	self assert: ioBuffer isEmpty
 	

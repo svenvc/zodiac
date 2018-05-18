@@ -1,4 +1,4 @@
-initialize
+initialization
 initialize
 	"Initialize the receiver"
 

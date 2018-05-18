@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"poolForSize:" : "",
+		"recycle:" : "",
+		"byteArrayOfSize:zero:" : "",
+		"initialize" : "",
+		"resources" : "",
+		"totalSize" : "",
+		"limit:" : ""
+	},
+	"class" : {
+		"current" : "",
+		"cleanUp" : "",
+		"current:" : ""
+	}
+}
