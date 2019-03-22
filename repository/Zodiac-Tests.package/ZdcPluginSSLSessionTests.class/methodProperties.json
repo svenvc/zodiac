@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"tearDown" : "",
-		"testCertificateName" : "",
-		"testServerName" : "",
-		"setUp" : ""
-	},
-	"class" : { }
-}
