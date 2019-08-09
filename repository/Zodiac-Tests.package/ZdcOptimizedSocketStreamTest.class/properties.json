@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ZdcAbstractSocketStreamTests",
+	"super" : "ZdcAbstractSocketStreamTest",
 	"category" : "Zodiac-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ZdcReferenceSocketStreamTests",
+	"name" : "ZdcOptimizedSocketStreamTest",
 	"type" : "normal"
 }
