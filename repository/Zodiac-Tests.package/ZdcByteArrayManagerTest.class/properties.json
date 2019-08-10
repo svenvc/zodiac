@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ZdcByteArrayManagerTests",
+	"name" : "ZdcByteArrayManagerTest",
 	"type" : "normal"
 }

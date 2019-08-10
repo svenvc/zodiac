@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ZdcAbstractSocketStreamTests",
+	"name" : "ZdcAbstractSocketStreamTest",
 	"type" : "normal"
 }

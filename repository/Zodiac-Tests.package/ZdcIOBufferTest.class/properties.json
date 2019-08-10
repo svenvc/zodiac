@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ZdcSecureSocketStreamTests",
+	"name" : "ZdcIOBufferTest",
 	"type" : "normal"
 }
