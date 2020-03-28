@@ -1,4 +1,4 @@
-testing
+tests
 testCompactAtBeginning
 	| ioBuffer |
 	ioBuffer := ZdcIOBuffer on: (ByteArray new: 10).

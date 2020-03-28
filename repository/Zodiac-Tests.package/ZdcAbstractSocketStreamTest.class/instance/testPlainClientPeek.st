@@ -1,4 +1,4 @@
-testing
+tests - plain
 testPlainClientPeek
 	| dataSent first peek peekForFalse peekForTrue second clientStream semaphore |
 	dataSent := #[ 6 5 4 3 2 1 ].
