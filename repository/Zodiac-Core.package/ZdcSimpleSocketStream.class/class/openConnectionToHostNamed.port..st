@@ -1,11 +1,9 @@
 instance creation
 openConnectionToHostNamed: hostName port: portNumber
-	| platformSocket socketStream hostIPAddress |
+	| platformSocket socketStream hostIP |
 	platformSocket := Socket newTCP.
 	socketStream := self on: platformSocket.
-	hostIPAddress := NetNameResolver addressForName: hostName timeout: socketStream timeout.
-	(hostIPAddress isNil or: [ hostIPAddress = SocketAddress zero ])
-		ifTrue: [ ^ NameLookupFailure signalFor: hostName ].
+	hostIP := NetNameResolver addressForName: hostName timeout: socketStream timeout.
 	^ socketStream 
-		connectTo: hostIPAddress port: portNumber;
+		connectTo: hostIP port: portNumber;
 		yourself
