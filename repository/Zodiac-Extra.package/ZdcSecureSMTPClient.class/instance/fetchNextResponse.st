@@ -1,4 +1,4 @@
-private protocol
+private - protocol
 fetchNextResponse
 	"The FTP and similar protocols allow multi-line responses.
 	If the response is multi-line, the fourth character of the first line is a  

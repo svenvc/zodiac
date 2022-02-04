@@ -1,3 +1,3 @@
-private protocol
+private - protocol
 fetchNextResponse
 	self lastResponse: self nextLineFromStream

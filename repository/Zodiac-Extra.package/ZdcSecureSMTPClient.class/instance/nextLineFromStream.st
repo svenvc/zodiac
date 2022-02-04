@@ -1,4 +1,4 @@
-private protocol
+private - protocol
 nextLineFromStream
 	| line |
 	line := lineReader nextLine.

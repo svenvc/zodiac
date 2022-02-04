@@ -7,4 +7,4 @@ testSimple
 	byteArray := byteArrayManager byteArrayOfSize: 4096 zero: false.
 	byteArrayManager recycle: byteArray.
 	self assert: byteArrayManager totalSize equals: 4096.
-	self assert: (byteArrayManager byteArrayOfSize: 4096 zero: false) == byteArray
+	self assert: (byteArrayManager byteArrayOfSize: 4096 zero: false) identicalTo: byteArray

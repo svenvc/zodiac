@@ -1,4 +1,4 @@
-private in
+private - in
 readEncryptedBytes: bytes startingAt: offset count: count
 	"Read encrypted bytes from the network. Wait if necessary."
 	

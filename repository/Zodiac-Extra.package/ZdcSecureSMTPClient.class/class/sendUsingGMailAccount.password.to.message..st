@@ -1,4 +1,4 @@
-example
+examples
 sendUsingGMailAccount: senderAddress password: password to: receiverAddress message: mailMessage
 	| smtpClient |
 	(smtpClient := self new)

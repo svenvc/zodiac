@@ -1,4 +1,4 @@
-private protocol
+private - protocol
 alternativeLogin
 	self initiateSession. "send EHLO first"
 	self user ifNil: [ ^ self ].

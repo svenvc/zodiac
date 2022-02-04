@@ -1,4 +1,4 @@
-private in
+private - in
 fillBytes: bytes startingAt: offset count: count
 	"Ask to read count elements into bytes starting at offset. Do not wait. Return read count.
 	Overwritten: decrypt and if necessary ask the socket for encrypted data using a super call."

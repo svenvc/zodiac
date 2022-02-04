@@ -1,4 +1,4 @@
-private socket
+private - socket
 socketSendData: bytes startingAt: offset count: count
 	^ socket 
 		sendSomeData: bytes 

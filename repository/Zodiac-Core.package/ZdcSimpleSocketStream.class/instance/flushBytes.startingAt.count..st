@@ -1,4 +1,4 @@
-private out
+private - out
 flushBytes: bytes startingAt: offset count: count
 	"Ask the socket to write count bytes starting from offset. Wait. Fail if not successful"
 	

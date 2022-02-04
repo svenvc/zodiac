@@ -1,4 +1,4 @@
-operations
+initialization
 reset
 	"Do a hard reset"
 	
