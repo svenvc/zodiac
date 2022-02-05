@@ -1,4 +1,4 @@
-example
+examples
 retrieveMessagesFromGMailAccount: accountAddress password: password limit: limit
 	| pop3Client messages messageCount |
 	(pop3Client := self openOnHostNamed: 'smtp.gmail.com' port: self defaultPortForSSL)

@@ -1,4 +1,4 @@
-private protocol
+private - protocol
 startTLS
 	"Send a STARTTLS command and after the response, 
 	switch to a SecureSocketStream and do the client handshake"

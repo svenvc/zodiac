@@ -1,4 +1,4 @@
-private protocol
+private - protocol
 sendCommand: aString
 	self logVerbose: aString.
 	self stream 
