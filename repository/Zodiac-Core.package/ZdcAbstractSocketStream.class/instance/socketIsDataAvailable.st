@@ -1,3 +1,3 @@
-private socket
+private - socket
 socketIsDataAvailable
 	^ socket dataAvailable 

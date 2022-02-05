@@ -1,3 +1,4 @@
 testing
-isAbstract
-	^ self = ZdcAbstractSSLSession
+isAbstract 
+
+	^self == ZdcAbstractSSLSession

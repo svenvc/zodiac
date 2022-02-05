@@ -1,4 +1,4 @@
-private out
+private - out
 flushBytes: bytes startingAt: offset count: count
 	"Ask to write count bytes starting from offset. Wait. Fail if not successful
 	Overwritten: first encrypt the data, then send it to the socket using a super call."

@@ -1,4 +1,4 @@
-private in
+private - in
 fillReadBuffer
 	"Ask the socket to fill the read buffer with data. Wait for a data."
 	

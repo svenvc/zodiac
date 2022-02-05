@@ -1,4 +1,4 @@
-private socket
+private - socket
 socketWaitForSendDone
 	^ socket waitForSendDoneFor: self timeout
 	

@@ -1,3 +1,4 @@
 testing
 isAbstract
-	^ self = ZdcAbstractSocketStream
+
+	^self == ZdcAbstractSocketStream 

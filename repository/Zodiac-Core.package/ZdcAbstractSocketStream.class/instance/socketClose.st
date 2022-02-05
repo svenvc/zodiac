@@ -1,3 +1,3 @@
-private socket
+private - socket
 socketClose
 	socket closeAndDestroy 
