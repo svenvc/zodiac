@@ -12,7 +12,10 @@ for example HTTPS when combined with a suitable client such as Zinc HTTP Compone
 ## Please read the [TLS/SSL](https://github.com/svenvc/zodiac/blob/master/zodiac-paper.md) paper
 
 
-*Sven Van Caekenberghe* 
+*Sven Van Caekenberghe*
+
+
+This project lives under, is loaded by and is managed via the [Zinc HTTP Components](https://github.com/svenvc/zinc) project.
 
 
 [MIT Licensed](https://github.com/svenvc/zodiac/blob/master/license.txt)
