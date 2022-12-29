@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initialize 
 	timeout := 5.
 	debug := false.
