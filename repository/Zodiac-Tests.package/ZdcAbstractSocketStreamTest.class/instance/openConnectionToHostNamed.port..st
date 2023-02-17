@@ -1,4 +1,4 @@
 private
 openConnectionToHostNamed: host port: port
-	^ self socketStreamClass 
+	^ self socketStreamClass
 		openConnectionToHostNamed: host port: port

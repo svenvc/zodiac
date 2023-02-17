@@ -1,3 +1,3 @@
 private
 debug: aBoolean
-	debug := aBoolean 
+	debug := aBoolean

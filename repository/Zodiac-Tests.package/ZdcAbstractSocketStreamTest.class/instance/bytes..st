@@ -7,4 +7,4 @@ bytes: size
 		[ count < size ] whileTrue: [
 			stream nextPutAll: pattern.
 			count := count + pattern size ] ].
-	^ data copyFrom: 1 to: size     
+	^ data copyFrom: 1 to: size

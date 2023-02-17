@@ -5,7 +5,7 @@ testReverseEcho
 		clientSocket := serverSocket waitForAcceptFor: 10.
 		stream := self socketStreamOn: clientSocket.
 		data := stream upTo: 0.
-		stream nextPutAll: data reverse; nextPut: 0.  
+		stream nextPutAll: data reverse; nextPut: 0.
 		stream close ].
 	dataSent := #[ 1 2 3 4 5 6 ].
 	clientStream := self openConnectionToHostNamed: 'localhost' port: self port.

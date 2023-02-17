@@ -5,7 +5,7 @@ testReverseEcho10kSearch
 		clientSocket := serverSocket waitForAcceptFor: 10.
 		stream := self socketStreamOn: clientSocket.
 		data := stream upTo: 0.
-		stream nextPutAll: data reverse; nextPut: 0.  
+		stream nextPutAll: data reverse; nextPut: 0.
 		stream close ].
 	dataSent := (self bytes: 10000) replace: [ :each | each max: 1 ].
 	clientStream := self openConnectionToHostNamed: 'localhost' port: self port.

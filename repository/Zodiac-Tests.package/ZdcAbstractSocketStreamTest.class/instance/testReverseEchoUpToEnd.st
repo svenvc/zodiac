@@ -6,9 +6,9 @@ testReverseEchoUpToEnd
 		stream := self socketStreamOn: clientSocket.
 		"Doing #upToEnd here does not seem to work"
 		data := stream next: 6.
-		stream nextPutAll: data reverse.  
+		stream nextPutAll: data reverse.
 		stream close ].
-	self runClient: [ 
+	self runClient: [
 		dataSent := #[ 1 2 3 4 5 6 ].
 		clientStream := self openConnectionToHostNamed: 'localhost' port: self port.
 		clientStream nextPutAll: dataSent; flush.

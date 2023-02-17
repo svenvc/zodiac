@@ -9,5 +9,3 @@ testCompactAtEnd
 	self assert: ioBuffer gapAtFront equals: 10.
 	ioBuffer compact.
 	self assert: ioBuffer isEmpty
-	
-		

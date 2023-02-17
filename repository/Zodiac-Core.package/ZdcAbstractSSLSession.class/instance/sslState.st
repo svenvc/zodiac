@@ -5,5 +5,5 @@ sslState
 		1 - In accept handshake
 		2 - In connect handshake
 		3 - Connected"
-		
+
 	self subclassResponsibility

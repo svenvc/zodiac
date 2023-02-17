@@ -10,4 +10,3 @@ testAdvanceWritePointer
 	self deny: ioBuffer isEmpty.
 	self assert: ioBuffer availableForReading equals: 6.
 	self assert: ioBuffer contents equals: #[1 2 3 4 5 6]
-	

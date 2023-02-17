@@ -1,7 +1,7 @@
 stream out
 next: count putAll: collection startingAt: offset
 	"Write count bytes from collection starting at offset. Overwritten, optimized"
-	
+
 	| totalWritten |
 	totalWritten := 0.
 	[ | toWrite |

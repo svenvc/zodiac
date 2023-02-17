@@ -1,4 +1,4 @@
 private
 socketStreamOn: socket
-	^ self socketStreamClass 
+	^ self socketStreamClass
 		on: socket

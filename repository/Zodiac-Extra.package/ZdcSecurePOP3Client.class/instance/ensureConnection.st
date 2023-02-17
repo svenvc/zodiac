@@ -1,7 +1,7 @@
 private
 ensureConnection
 	"Overwritten & refactored"
-		
+
 	self isConnected ifTrue: [ ^ self ].
 	self stream ifNotNil: [ self stream close ].
 

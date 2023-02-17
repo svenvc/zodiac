@@ -16,6 +16,6 @@ testPlain
 		stream flush.
 		stream upToEnd asString.
 	] ensure: [ stream close ].
-	self assert: (response includesSubstring: '200 OK').      
+	self assert: (response includesSubstring: '200 OK').
 	self assert: (response includesSubstring: 'Duck').
-	self assert: (response includesSubstring: query).
+	self assert: (response includesSubstring: query)

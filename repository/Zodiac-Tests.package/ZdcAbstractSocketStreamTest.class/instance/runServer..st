@@ -5,10 +5,10 @@ runServer: block
 	self assert: serverSocket notNil.
 	self assert: serverSocket localPort equals: self port.
 	semaphore := Semaphore new.
-	[ 
+	[
 	semaphore signal.
 	[ block cull: serverSocket cull: semaphore ]
-		ensure: [ 
+		ensure: [
 			serverSocket closeAndDestroy.
 			semaphore signal ] ] forkAt: self serverPriority.
 	semaphore wait.

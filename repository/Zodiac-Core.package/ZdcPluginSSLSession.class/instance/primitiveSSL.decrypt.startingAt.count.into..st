@@ -4,5 +4,5 @@ primitiveSSL: sslHandle decrypt: srcbuf startingAt: start count: length into: ds
 	Returns the number of bytes produced in the output"
 
 	<primitive: 'primitiveDecrypt' module: 'SqueakSSL'>
-	
+
 	^ self primitiveFailed

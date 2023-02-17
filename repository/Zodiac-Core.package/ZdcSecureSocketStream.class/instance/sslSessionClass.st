@@ -1,3 +1,3 @@
 accessing
 sslSessionClass
-	^ ZdcPluginSSLSession 
+	^ ZdcPluginSSLSession

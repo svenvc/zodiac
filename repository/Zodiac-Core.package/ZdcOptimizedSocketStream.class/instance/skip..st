@@ -1,7 +1,7 @@
 stream in
 skip: count
 	"Skip over count bytes. Overwritten, optimized"
-	
+
 	| skipCount |
 	skipCount := 0.
 	[ | leftToSkip skipping |

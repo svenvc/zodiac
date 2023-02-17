@@ -1,3 +1,3 @@
 accessing
 socketStreamClass
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

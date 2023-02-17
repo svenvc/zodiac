@@ -5,7 +5,7 @@ testAddOneEcho
 		clientSocket := serverSocket waitForAcceptFor: 10.
 		stream := self socketStreamOn: clientSocket.
 		data := stream next.
-		stream nextPut: ((data + 1) bitAnd: 16rff).  
+		stream nextPut: ((data + 1) bitAnd: 16rff).
 		stream close ].
 	dataSent := 99.
 	clientStream := self openConnectionToHostNamed: 'localhost' port: self port.

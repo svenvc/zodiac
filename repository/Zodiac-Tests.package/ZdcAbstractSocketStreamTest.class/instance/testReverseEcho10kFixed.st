@@ -5,7 +5,7 @@ testReverseEcho10kFixed
 		clientSocket := serverSocket waitForAcceptFor: 10.
 		stream := self socketStreamOn: clientSocket.
 		data := stream next: 10000.
-		stream nextPutAll: data reverse.  
+		stream nextPutAll: data reverse.
 		stream close ].
 	dataSent := self bytes: 10000.
 	clientStream := self openConnectionToHostNamed: 'localhost' port: self port.

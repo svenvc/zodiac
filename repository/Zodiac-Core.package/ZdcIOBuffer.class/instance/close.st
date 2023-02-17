@@ -1,6 +1,6 @@
 initialize-release
 close
-	buffer ifNotNil: [  
+	buffer ifNotNil: [
 		ZdcByteArrayManager current recycle: buffer.
 		buffer := nil.
 		self reset ]

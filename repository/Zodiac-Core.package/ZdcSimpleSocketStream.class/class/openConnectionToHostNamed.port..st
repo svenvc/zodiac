@@ -6,6 +6,6 @@ openConnectionToHostNamed: hostName port: portNumber
 	hostIPAddress := NetNameResolver addressForName: hostName timeout: socketStream timeout.
 	(hostIPAddress isNil or: [ hostIPAddress = SocketAddress zero ])
 		ifTrue: [ ^ NameLookupFailure signalFor: hostName ].
-	^ socketStream 
+	^ socketStream
 		connectTo: hostIPAddress port: portNumber;
 		yourself

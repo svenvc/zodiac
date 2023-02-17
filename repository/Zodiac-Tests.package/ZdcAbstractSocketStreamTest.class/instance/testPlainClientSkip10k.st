@@ -5,7 +5,7 @@ testPlainClientSkip10k
 	semaphore := self runServer: [ :serverSocket :mySemaphore | | clientSocket serverStream |
 		clientSocket := serverSocket waitForAcceptFor: 10.
 		serverStream := self referenceSocketStreamOn: clientSocket.
-		10000 timesRepeat: [ serverStream nextPut: 0 ].  
+		10000 timesRepeat: [ serverStream nextPut: 0 ].
 		serverStream nextPutAll: dataSent.
 		serverStream close.
 		mySemaphore signal ].

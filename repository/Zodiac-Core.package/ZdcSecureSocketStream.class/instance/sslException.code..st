@@ -1,7 +1,7 @@
 private
 sslException: text code: code
-	self error: 
+	self error:
 		(String streamContents: [ :stream |
 			stream << 'SSL Exception: ' << text << ' [code:'.
 			stream print: code.
-			stream << ']' ]) 
+			stream << ']' ])

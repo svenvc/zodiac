@@ -11,5 +11,5 @@ certificateVerificationState
 		8   - If set, the certificate is used for the wrong purpose
 		16 - If set, the CN of the certificate is invalid
 		32 - If set, the certificate was revoked"
-		
+
 	^ self primitiveSSL: handle getIntProperty: 3

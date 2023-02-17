@@ -3,7 +3,7 @@ initialize
 	"Initialize the receiver"
 
 	[ handle := self primitiveSSLCreate ]
-		on: PrimitiveFailed 
+		on: PrimitiveFailed
 		do: [ :exception |
 			"Give a more human friendly error message"
 			ZdcPluginMissing signal ].

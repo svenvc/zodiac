@@ -4,8 +4,8 @@ printOn: stream
 	stream nextPut: $(.
 	buffer
 		ifNil: [ stream << 'closed' ]
-		ifNotNil: [  
-			self gapAtFront > 0 
+		ifNotNil: [
+			self gapAtFront > 0
 				ifTrue: [ stream nextPut: $-; print: self gapAtFront; space ].
 			stream print: self contents.
 			self availableForWriting > 0

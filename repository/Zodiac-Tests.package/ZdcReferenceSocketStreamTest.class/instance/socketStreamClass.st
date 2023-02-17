@@ -1,3 +1,3 @@
 accessing
 socketStreamClass
-	^ SocketStream 
+	^ SocketStream
