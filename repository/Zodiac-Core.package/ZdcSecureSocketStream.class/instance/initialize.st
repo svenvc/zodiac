@@ -1,4 +1,4 @@
-initialize-release
-initialize 
+initialization
+initialize
 	super initialize.
 	connecting := false
