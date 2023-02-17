@@ -1,4 +1,4 @@
-initialize
+initialization
 initialize
 	super initialize.
 	limit := 0.
