@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "SvenVanCaekenberghe 4/7/2023 11:31",
 	"super" : "SMTPClient",
 	"category" : "Zodiac-Extra",
 	"classinstvars" : [ ],
@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"variant",
-		"lineReader"
+		"lineReader",
+		"skipRequireStartTLS"
 	],
 	"name" : "ZdcSecureSMTPClient",
 	"type" : "normal"

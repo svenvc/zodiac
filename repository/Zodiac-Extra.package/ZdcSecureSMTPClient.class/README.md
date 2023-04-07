@@ -2,6 +2,7 @@ I am ZdcSecureSMTPClient.
 
 I open a ZdcSecureSocketStream to the SMTP server and connect it at the SSL level.
 
+```
 | mailMessage |
 mailMessage := MailMessage empty.
 mailMessage setField: 'subject' toString: 'ZdcSecureSMTPClient Test'.
@@ -11,3 +12,4 @@ ZdcSecureSMTPClient
 	password: '<your-password>'
 	to: '<email-address>' 
 	message: mailMessage
+```
