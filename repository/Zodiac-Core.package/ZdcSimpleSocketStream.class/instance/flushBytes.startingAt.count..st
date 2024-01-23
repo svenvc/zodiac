@@ -8,5 +8,4 @@ flushBytes: bytes startingAt: offset count: count
 	[ | written |
 		written := self socketSendData: bytes startingAt: offset + writeCount count: count - writeCount.
 		(writeCount := writeCount + written) = count ] whileFalse: [
-		self socketWaitForSendDone
-			ifFalse: [ ConnectionTimedOut signal: 'Data send timed out.' ] ]
+		self socketWaitForSendDone ]

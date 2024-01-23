@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Zodiac-Core'!
+self packageOrganizer ensurePackage: #'Zodiac-Core' withTags: #()!
