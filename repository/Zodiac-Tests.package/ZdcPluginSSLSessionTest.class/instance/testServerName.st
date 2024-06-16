@@ -2,7 +2,7 @@ tests
 testServerName
 
 	[ session serverName; serverName: nil ] 
-		on: (ZnUtils exceptionSet: #( #SocketError #PrimitiveFailed )) 
+		on: (ZdcUtils exceptionSet: #( #SocketError #PrimitiveFailed )) 
 		do: [ ^ self skip ].
 
 	self assert: session serverName equals: nil.

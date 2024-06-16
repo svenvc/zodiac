@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Anonymous 6/16/2024 18:13",
+	"super" : "Object",
+	"category" : "Zodiac-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZdcUtils",
+	"type" : "normal"
+}
