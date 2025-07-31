@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Zodiac-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"client",
+		"clone"
+	],
+	"name" : "ZdcPluginSSLSessionFinalizationTest",
+	"type" : "normal"
+}
