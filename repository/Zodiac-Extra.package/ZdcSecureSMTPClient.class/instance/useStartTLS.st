@@ -1,3 +1,3 @@
-initialize-release
+initialization
 useStartTLS
 	variant := #startTLS
