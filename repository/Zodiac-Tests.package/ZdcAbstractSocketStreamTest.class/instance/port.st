@@ -1,3 +1,3 @@
 accessing
 port
-	^ 1701
+	^ serverPort

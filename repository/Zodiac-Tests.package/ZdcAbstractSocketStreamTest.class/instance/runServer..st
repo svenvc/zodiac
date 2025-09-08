@@ -1,9 +1,10 @@
 private
 runServer: block
 	| serverSocket semaphore |
-	serverSocket := self serverSocketOn: self port.
+	serverSocket := self serverSocketOn: 0.
 	self assert: serverSocket notNil.
-	self assert: serverSocket localPort equals: self port.
+	serverPort := serverSocket port.
+	
 	semaphore := Semaphore new.
 	[
 	semaphore signal.
