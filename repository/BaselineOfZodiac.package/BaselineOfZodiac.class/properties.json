@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "2025-10-07T20:07:22.887174+02:00",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfZodiac",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfZodiac",
+	"type" : "normal"
+}
